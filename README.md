@@ -25,6 +25,7 @@ This function returns the values obtained by ModbusRegRead() in an array
 - reg_num: Number of register values to return from most recent ModbusRegRead() call, starting from reg_add
 
 ### ModbusRegWrite(fun_code, reg_add, reg_num, reg_value, 1, 0)
+This function writes values to desired addresses on the gripper
 - fun_code: The function code; 0x05 (single coil), 0x06 (single register), 0x0F (multiple coils), 0x10 (multiple registers)
 - reg_add: Register start address
 - reg_num: Number of consecutive addresses to write to
