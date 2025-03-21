@@ -10,7 +10,7 @@ To begin, you will go to the Fairino WebApp interface and navigate to "Applicati
 
 The next step is to connect the 485A wire of the pigtail cable to the 485-A0 port of the control box for the Fairino. You will do the same for the 485B wire to the 485-B0 port.
 
-Next is to connect the 24V and GND wires of the pigtail cable to either an external power supply, or connect the 24V to a DO port on the control box and the GND wire to a GND or E-0V port.
+Next is to connect the 24V and GND wires of the pigtail cable to either an external power supply, or connect the 24V to a DO port on the control box and the GND wire to a GND or E-0V port. You can only connect to the control box if the gripper takes 24V power; otherwise you will need an external power supply.
 
 Once the gripper has power, you can control it using the functions ModbusRegRead(), ModbusRegGetData(), and ModbusRegWrite().
 
