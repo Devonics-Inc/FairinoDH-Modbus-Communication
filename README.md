@@ -6,8 +6,7 @@ Instructions for controlling DH grippers via Modbus through the Fairino control 
  - DH end effector
  - Pigtail adapter cable (included with gripper)
 
-To begin, you will go to the Fairino WebApp interface and navigate to "Application -> Tool App -> Peripheral Protocol". Then select "Modbus master" from the dropdown menu.
-
+To begin, you will go to the Fairino WebApp interface and navigate to "Application -> Tool App -> Peripheral Protocol". Then select "Modbus master" from the dropdown menu and hit "Set".
 The next step is to connect the 485A wire of the pigtail cable to the 485-A0 port of the control box for the Fairino. You will do the same for the 485B wire to the 485-B0 port.
 
 Next is to connect the 24V and GND wires of the pigtail cable to either an external power supply, or connect the 24V to a DO port on the control box and the GND wire to a GND or E-0V port.
